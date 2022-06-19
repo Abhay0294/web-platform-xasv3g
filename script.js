@@ -10,11 +10,11 @@ button.addEventListener('click', () => {
   const listText = document.createElement('span');
   const listButton = document.createElement('button');
 
-  listItem.appendChild(listText);
-  listText.textContent = myItem;
-  listItem.appendChild(listButton);
-  listButton.textContent = 'Delete';
+  listItem.append(listText, listButton);
   list.appendChild(listItem);
+
+  listText.textContent = myItem;
+  listButton.textContent = 'Delete';
 
   listButton.addEventListener('click', () => {
     list.removeChild(listItem);
