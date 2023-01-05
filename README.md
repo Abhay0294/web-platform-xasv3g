@@ -1,3 +1,3 @@
-# web-platform-xasv3g
+# Shopping List
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-xasv3g)
+This repository contains code for simple shopping list implmentation
